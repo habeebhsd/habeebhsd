@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(10, 9, 9);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 30px;
+    /* margin: 30px; */
+    background-color: gainsboro;
+
+}
+
+.name {
+    color: rgb(238, 17, 127);
+}
+
+.header_ul {
+    display: flex;
+    list-style: none;
+    /* color: aliceblue; */
+}
+
+.header_ul li {
+    padding: 15px
+}
+
+.bgimage {
+    background-image: url(Video-Backgrounds.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.bgimage div {
+    margin: 0px 0px 0px 50px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
+        backdrop-filter: blur(11.3px); */
+
+}
+
+.name {
+    color: rgb(224, 12, 83);
+}
+
+.header_b {
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: rgb(243, 105, 151);
+    color: aliceblue;
+    border: 2px solid aliceblue;
+
+}
+
+.firstpara h5 {
+    margin: 5px;
+}
+
+.firstpara h4 {
+    margin: 5px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 20px 200px;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.about_img {
+    height: auto;
+    width: 400px;
+    box-shadow: gray -1px 0px 18px -7px;
+    border-radius: 8px;
+}
+
+.about div {
+    height: auto;
+    width: 400px;
+}
+
+.myabout {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 8px;
+    white-space: 5px;
+}
+
+.me {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.skill {
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.secondpara {
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    margin: 0px 50px;
+
+}
+
+.skill_img {
+    height: 200px;
+}
+
+.secondpara h4 {
+    font-size: 30px;
+}
+
+.secondpara p {
+    font-size: 20px;
+}
+
+.secondpara_p1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.project {
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.thirdpara {
+    display: flex;
+    color: aliceblue;
+    /* align-items: center; */
+    margin: 30px;
+    padding: 20px 40px;
+}
+
+.thirdpara_2 {
+    margin: 50px
+}
+
+.thirdpara_2 h2 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.thirdpara_2 img {
+    height: 300px;
+    width: auto;
+}
+
+.thirdpara_2 p {
+    line-height: 25px;
+    word-spacing: 4px;
+}
+
+.thirdpara_lists {
+    display: flex;
+}
+
+.thirdpara_lists li {
+    margin: 15px;
+}
+
+.thirdpara_button {
+    padding: 10px 25px;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 2px solid aliceblue;
+    background-color: transparent;
+}
+
+.inputtag_1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.inputtag {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.inputtag_2 {
+    height: 150px;
+    width: 800px;
+    background-color: gainsboro;
+    margin: 30px;
+    border: 1px solid rgb(241, 201, 201);
+}
+
+.inputtag_1 input {
+    background-color: gainsboro;
+    color: rgb(243, 248, 252);
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(250, 205, 231);
+}
+
+footer {
+    background-color: rgb(56, 54, 54);
+    color: aliceblue;
+    height: 100px;
+    display: flex;
+    padding: 0px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+footer ul {
+    display: flex;
+    /* padding: 20px; */
+
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    font-size: 15px;
+    color: yellow;
+}
+
+footer ul li {
+    margin: 20px;
+    list-style: none;
+    font-size: 30px;
+}
+
+footer i {
+    font-size: 40px;
+    align-items: center;
+}
+
+#element {
+    font-size: 40px;
+}
+
+.contact_b {
+    color: aliceblue;
+    padding: 5px 20px;
+    margin: 0px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 450px) {
+    .bgimage {
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 5px 10px;
+
+    }
+
+    .header_ul li {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .header h1 {
+        font-size: 15px;
+    }
+
+    .header_b {
+        padding: 3px 5px;
+        font-size: 7px;
+    }
+
+    .firstpara h5 {
+        /* margin: 10px; */
+        font-size: 16px;
+
+    }
+
+    .firstpara h1 {
+        font-size: 30px;
+    }
+
+    #element {
+        font-size: 18px;
+    }
+
+    .skill {
+        font-size: 10px;
+    }
+
+    .about_img {
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+
+    .me {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .myabout {
+        font-size: 20px;
+        margin: 15px 55px;
+    }
+
+    .secondpara {
+        flex-direction: column;
+        margin: 45px;
+    }
+
+    .about {
+        flex-direction: column;
+        margin: 50px;
+        text-align: center;
+    }
+
+    .skill_img {
+        height: 150px;
+    }
+
+    .secondpara_p {
+        font-size: 14px;
+    }
+
+    .thirdpara_2 img {
+        height: 150px;
+    }
+
+    .thirdpara {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .inputtag {
+        flex-direction: column;
+    }
+
+    .inputtag_2 {
+        width: 95%;
+        margin: 13px;
+    }
+
+    .inputtag_1 input {
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+
+    footer {
+        padding: 0px 20px;
+        height: 60px;
+    }
+
+    footer i {
+        font-size: 30px;
+    }
+
+    footer ul li {
+        margin: 7px;
+        font-size: 20px;
+    }
+
+    footer div p {
+        font-size: 10px;
+        color: #ffca00bd;
+    }
+
+    .inputtag_1 {
+        margin: 0px 5px;
+        width: 100%;
+    }
+
+    .contact_b {
+        color: aliceblue;
+        padding: 5px 10px;
+        margin: 0px 12px;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+}

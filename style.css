@@ -280,15 +280,19 @@ footer i {
     font-size: 12px;
 }
 
+.thirdpara_2 img {
+    box-shadow: 0px 0px 16px white;
+}
+
 @media screen and (max-width: 450px) {
     .bgimage {
-        height: 250px;
+        height: 500px;
         font-size: 20px;
     }
 
     .header {
-        padding: 5px 10px;
-
+        padding: 20px 30px;
+        width: 86%;
     }
 
     .header_ul li {
@@ -303,20 +307,21 @@ footer i {
     .header_b {
         padding: 3px 5px;
         font-size: 7px;
+        margin-right: 20px;
     }
 
     .firstpara h5 {
         /* margin: 10px; */
-        font-size: 16px;
+        font-size: 20px;
 
     }
 
     .firstpara h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     #element {
-        font-size: 18px;
+        font-size: 23px;
     }
 
     .skill {
@@ -417,6 +422,14 @@ footer i {
         background-color: transparent;
         border: 1px solid white;
         font-size: 12px;
+    }
+
+    .bgimage div {
+        margin: 0px 0px 0px 30px;
+    }
+
+    .thirdpara_2 img {
+        box-shadow: 0px 0px 16px white;
     }
 
 

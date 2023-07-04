@@ -325,7 +325,13 @@ footer i {
     }
 
     .skill {
-        font-size: 10px;
+        font-size: 20px;
+        margin-top: 0px;
+
+    }
+
+    .bgimage {
+        height: 600px;
     }
 
     .about_img {
@@ -337,7 +343,6 @@ footer i {
 
     .me {
         font-size: 30px;
-        margin: 5px;
     }
 
     .myabout {
@@ -432,6 +437,21 @@ footer i {
         box-shadow: 0px 0px 16px white;
     }
 
+    footer {
+        padding: 0px 0px;
+        height: 77px;
+        width: 100%;
+    }
+
+    .skill_img {
+        margin-left: -15px;
+
+    }
+
+    .about div {
+        height: auto;
+        width: 100%;
+    }
 
 
 

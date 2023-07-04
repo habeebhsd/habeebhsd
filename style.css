@@ -282,9 +282,20 @@ footer i {
 
 .thirdpara_2 img {
     box-shadow: 0px 0px 16px white;
+    height: 200px;
+    border-radius: 10px;
+
 }
 
-@media screen and (max-width: 450px) {
+element.style {}
+
+.skill_img {
+    height: 200px;
+    /* width: 100%; */
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 480px) {
     .bgimage {
         height: 500px;
         font-size: 20px;
@@ -347,7 +358,7 @@ footer i {
 
     .myabout {
         font-size: 20px;
-        margin: 15px 55px;
+        margin: 20px 40px;
     }
 
     .secondpara {
@@ -439,7 +450,7 @@ footer i {
 
     footer {
         padding: 0px 0px;
-        height: 77px;
+        height: 62px;
         width: 100%;
     }
 
@@ -451,6 +462,11 @@ footer i {
     .about div {
         height: auto;
         width: 100%;
+    }
+
+    .header {
+        padding: 20px 26px;
+
     }
 
 
